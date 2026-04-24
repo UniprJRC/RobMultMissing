@@ -21,7 +21,7 @@ We develop a general framework for multivariate analysis with missing
 observations, with particular emphasis on the computation and use of
 Mahalanobis distances. When some entries are missing, the usual
 Mahalanobis distance can only be computed on the observed coordinates,
-yielding __partial__ distances that are not directly comparable across
+yielding _partial_ distances that are not directly comparable across
 units with different missingness patterns. To overcome this difficulty,
 we study a class of adjustments that rescale partial Mahalanobis
 distances to a common reference scale.
@@ -33,7 +33,7 @@ distances without explicit imputation. Seven adjustment methods are
 considered, including moment-based, determinant-based, and
 distributional transformations, as well as a model-based correction
 derived from the conditional expectation of the complete-data
-Mahalanobis distance. This __principled__ adjustment is shown to be
+Mahalanobis distance. This _principled_ adjustment is shown to be
 optimal under a mean squared error criterion.
 
 We further extend the methodology to a robust context through a trimmed
@@ -99,7 +99,7 @@ table th:nth-of-type(4) {
     width: 25%;
 }
 </style>
--->
+
 
 | FileName | View :eyes:  | Run ▶️  | Jupiter notebook | m format
 | -------- | ---- | --- | ---- | ----|
@@ -111,7 +111,7 @@ table th:nth-of-type(4) {
 
 
 ---
-
+-->
 
 ![GitHub top language](https://img.shields.io/github/languages/top/UniprJRC/boot-TCLUST)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/UniprJRC/boot-TCLUST)
