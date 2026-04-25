@@ -122,13 +122,12 @@ table th:nth-of-type(4) {
 | Bootstrap test for change in Mahalanobis distances under MCAR. | [`mdMCARtest`](http://rosa.unipr.it/FSDA/mdMCARtest.html) |
 | Replace NaNs with conditional mean or random draw from conditional distribution. | [`mdImputeCondMean`](http://rosa.unipr.it/FSDA/mdImputeCondMean.html) |
 
-![GitHub top language](https://img.shields.io/github/languages/top/UniprJRC/boot-TCLUST)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/UniprJRC/boot-TCLUST)
-[![View on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/183001-pcainteractive)
+![GitHub top language](https://img.shields.io/github/languages/top/UniprJRC/RobMultAnalysis)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/UniprJRC/RobMultAnalysis)
+[![View on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/183739-robust-multivariate-analysis-with-missing-observations)
 
-
-[![GitHub contributors](https://img.shields.io/github/contributors/UniprJRC/boot-TCLUST)](https://github.com/UniprJRC/2025tobit/graphs/contributors)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/UniprJRC/boot-TCLUST/graphs/commit-activity)
+[![GitHub contributors](https://img.shields.io/github/contributors/UniprJRC/RobMultAnalysis)](https://github.com/UniprJRC/RobMultAnalysis/graphs/contributors)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/UniprJRC/RobMultAnalysis/graphs/commit-activity)
 ![master](https://img.shields.io/github/last-commit/badges/shields/master)
 
 
