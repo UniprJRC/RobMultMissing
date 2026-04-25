@@ -120,8 +120,7 @@ table th:nth-of-type(4) {
 | Compute squared Mahalanobis distances using only observed entries. | [`mdPartialMD`](http://rosa.unipr.it/FSDA/mdPartialMD.html) |
 | Rescale partial squared Mahalanobis distances to the full-dimensional scale. | [`mdPartialMD2full`](http://rosa.unipr.it/FSDA/mdPartialMD2full.html) |
 | Bootstrap test for change in Mahalanobis distances under MCAR. | [`mdMCARtest`](http://rosa.unipr.it/FSDA/mdMCARtest.html) |
-| Replace NaNs with conditional mean. | [`mdImputeCondMean`](http://rosa.unipr.it/FSDA/mdImputeCondMean.html) |
-| Replace NaNs with random draws from conditional distribution. | [`mdImputeStochastic`](http://rosa.unipr.it/FSDA/mdImputeStochastic.html) |
+| Replace NaNs with conditional mean or random draw from conditional distribution. | [`mdImputeCondMean`](http://rosa.unipr.it/FSDA/mdImputeCondMean.html) |
 
 ![GitHub top language](https://img.shields.io/github/languages/top/UniprJRC/boot-TCLUST)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/UniprJRC/boot-TCLUST)
