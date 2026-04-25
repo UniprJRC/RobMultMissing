@@ -115,13 +115,13 @@ table th:nth-of-type(4) {
 
 | Description | Routine |
 |---|---|
-| EM algorithm for data with missing values (no trimming). | `mdEM` |
-| EM algorithm with trimming (TEM) for data with missing values. | `mdTEM` |
-| Compute squared Mahalanobis distances using only observed entries. | `mdPartialMD` |
-| Rescale partial squared Mahalanobis distances to the full-dimensional scale. | `mdPartialMD2full` |
-| Bootstrap test for change in Mahalanobis distances under MCAR. | `mdMCARtest` |
-| Replace NaNs with conditional mean. | `mdImputeCondMean` |
-| Replace NaNs with random draws from conditional distribution. | `mdImputeStochastic` |
+| EM algorithm for data with missing values (no trimming). | [`mdEM`](http://rosa.unipr.it/FSDA/mdEM.html) |
+| EM algorithm with trimming (TEM) for data with missing values. | [`mdTEM`](http://rosa.unipr.it/FSDA/mdTEM.html) |
+| Compute squared Mahalanobis distances using only observed entries. | [`mdPartialMD`](http://rosa.unipr.it/FSDA/mdPartialMD.html) |
+| Rescale partial squared Mahalanobis distances to the full-dimensional scale. | [`mdPartialMD2full`](http://rosa.unipr.it/FSDA/mdPartialMD2full.html) |
+| Bootstrap test for change in Mahalanobis distances under MCAR. | [`mdMCARtest`](http://rosa.unipr.it/FSDA/mdMCARtest.html) |
+| Replace NaNs with conditional mean. | [`mdImputeCondMean`](http://rosa.unipr.it/FSDA/mdImputeCondMean.html) |
+| Replace NaNs with random draws from conditional distribution. | [`mdImputeStochastic`](http://rosa.unipr.it/FSDA/mdImputeStochastic.html) |
 
 ![GitHub top language](https://img.shields.io/github/languages/top/UniprJRC/boot-TCLUST)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/UniprJRC/boot-TCLUST)
