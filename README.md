@@ -113,6 +113,8 @@ table th:nth-of-type(4) {
 ---
 -->
 
+
+
 | Description | Routine name (link to HTML doc file)|
 |---|---|
 | EM algorithm for data with missing values (no trimming). | [`mdEM`](http://rosa.unipr.it/FSDA/mdEM.html) |
@@ -121,6 +123,19 @@ table th:nth-of-type(4) {
 | Rescale partial squared Mahalanobis distances to the full-dimensional scale. | [`mdPartialMD2full`](http://rosa.unipr.it/FSDA/mdPartialMD2full.html) |
 | Bootstrap test for change in Mahalanobis distances under MCAR. | [`mdMCARtest`](http://rosa.unipr.it/FSDA/mdMCARtest.html) |
 | Replace NaNs with conditional mean or random draw from conditional distribution. | [`mdImputeCondMean`](http://rosa.unipr.it/FSDA/mdImputeCondMean.html) |
+
+---
+
+
+The following section contains a table with the source code that enables the reproduction of the Figures of the paper and the simulation study.
+
+| FileName | View :eyes:  | Run ▶️  | Jupiter notebook | m format
+| -------- | ---- | --- | ---- | ----|
+|`RobMultMissingFigures.mlx`: This code generates Figures from 4 to 9 and Table 1 of the paper. | [![File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/183739-robust-multivariate-analysis-with-missing-observations/files/RobMultMissingFigures.mlx)  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=UniprJRC/RobMultMissing&file=cRobMultMissingFigures.mlx) | [RobMultMissingFigures.ipynb](https://github.com/UniprJRC/RobMultMissing/blob/main/RobMultMissingFigures.ipynb) | [RobMultMissingFigures.m](https://github.com/UniprJRC/RobMultMissing/blob/main/RobMultMissingFigures.m)
+|`RobMultMissingSimStudies.mlx`: This code generates Figures from 1 to 3 and perform the simulation study described in section 3 of the paper. | [![File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/183739-robust-multivariate-analysis-with-missing-observations/files/RobMultMissingSimStudies.mlx)  | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=UniprJRC/RobMultMissing&file=cRobMultMissingSimStudies.mlx) | [RobMultMissingSimStudies.ipynb](https://github.com/UniprJRC/RobMultMissing/blob/main/RobMultMissingSimStudies.ipynb) | [RobMultMissingSimStudies.m](https://github.com/UniprJRC/RobMultMissing/blob/main/RobMultMissingSimStudies.m)
+
+---
+
 
 ![GitHub top language](https://img.shields.io/github/languages/top/UniprJRC/RobMultAnalysis)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/UniprJRC/RobMultAnalysis)
