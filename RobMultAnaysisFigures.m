@@ -1,3 +1,5 @@
+% Load the cows2026 dataset and display correlations 
+
 load cows2026
 X2=cows2026{:,:};
 disp('Correlation matrix with listwise deletion')
