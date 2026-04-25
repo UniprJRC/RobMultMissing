@@ -113,7 +113,7 @@ table th:nth-of-type(4) {
 ---
 -->
 
-| Description | Routine |
+| Description | Routine name (link to HTML doc file)|
 |---|---|
 | EM algorithm for data with missing values (no trimming). | [`mdEM`](http://rosa.unipr.it/FSDA/mdEM.html) |
 | EM algorithm with trimming (TEM) for data with missing values. | [`mdTEM`](http://rosa.unipr.it/FSDA/mdTEM.html) |
