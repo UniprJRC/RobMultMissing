@@ -113,6 +113,16 @@ table th:nth-of-type(4) {
 ---
 -->
 
+| Description | Routine |
+|---|---|
+| EM algorithm for data with missing values (no trimming). | `mdEM` |
+| EM algorithm with trimming (TEM) for data with missing values. | `mdTEM` |
+| Compute squared Mahalanobis distances using only observed entries. | `mdPartialMD` |
+| Rescale partial squared Mahalanobis distances to the full-dimensional scale. | `mdPartialMD2full` |
+| Bootstrap test for change in Mahalanobis distances under MCAR. | `mdMCARtest` |
+| Replace NaNs with conditional mean. | `mdImputeCondMean` |
+| Replace NaNs with random draws from conditional distribution. | `mdImputeStochastic` |
+
 ![GitHub top language](https://img.shields.io/github/languages/top/UniprJRC/boot-TCLUST)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/UniprJRC/boot-TCLUST)
 [![View on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/183001-pcainteractive)
